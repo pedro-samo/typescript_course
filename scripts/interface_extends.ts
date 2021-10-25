@@ -4,17 +4,17 @@ interface Model {
   updated_at: number;
 }
 
-interface Pessoa extends Model {
+interface IPessoa extends Model {
   nome: string;
   idade?: number;
 }
 
-interface Usuario extends Pessoa {
+interface IUsuario extends IPessoa {
   email: string;
   senha: string;
 }
 
-const joao: Usuario = {
+const joao: IUsuario = {
   email: "joao@hcode.com.br",
   id: 123,
   nome: "Joao",
