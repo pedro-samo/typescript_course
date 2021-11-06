@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
 
-    "target": "ESNEXT",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "lib": ["DOM", "ES2020"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "target": "ESNEXT",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */                                     /* Specify a set of bundled library declaration files that describe the target runtime environment. */
    
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": "./scripts",                                  /* Specify the root folder within your source files. */
+    "module": "es2015",                              /* Specify what module code is generated. */
+    "rootDir": "./assets/typescript",
+    "lib": ["DOM", "ES2016"],                            /* Specify the root folder within your source files. */
    
     /* JavaScript Support */
     "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the `checkJS` option to get errors from these files. */
@@ -14,7 +14,7 @@
     /* Emit */
     "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If `declaration` is true, also designates a file that bundles all .d.ts output. */
-    "outDir": "./output",                                   /* Specify an output folder for all emitted files. */
+    "outDir": "./assets/scripts",                            /* Specify an output folder for all emitted files. */
 
     /* Interop Constraints */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
