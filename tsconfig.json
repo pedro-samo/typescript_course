@@ -6,7 +6,7 @@
     /* Modules */
     "module": "es2015",                              /* Specify what module code is generated. */
     "rootDir": "./assets/typescript",
-    "lib": ["DOM", "ES2016"],                            /* Specify the root folder within your source files. */
+    "lib": ["DOM", "ES2017"],                            /* Specify the root folder within your source files. */
    
     /* JavaScript Support */
     "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the `checkJS` option to get errors from these files. */
